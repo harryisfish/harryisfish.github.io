@@ -63,3 +63,5 @@ huggingface-cli download --resume-download lj1995/GPT-SoVITS --local-dir GPT_SoV
 ```bash
 python webui.py
 ```
+
+本文最早是发布在 [GPT SoVITS 语雀文档中](https://www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e/znoph9dtetg437xb) 上，现在已经过多轮升级，最新版请访问最新版本。
