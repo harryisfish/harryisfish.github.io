@@ -11,12 +11,12 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Home"
+  name = "🏠 Home"
   pageRef = "/"
   weight = 10
 
 [[main]]
-  name = "Posts"
+  name = "📝 Posts"
   pageRef = "/posts"
   weight = 20
 
@@ -28,30 +28,29 @@
   weight = 90
 
 [[main]]
-  name = "Projects"
+  name = "🛠️ Projects"
   weight = 20
 
 [[main]]
-  name = "MultiPost"
-  parent = "Projects"
+  name = "🚀 MultiPost"
+  parent = "🛠️ Projects"
   pageRef = "https://multipost.app"
   weight = 21
 
 [[main]]
-  name = "2SOMEren"
-  parent = "Projects"
+  name = "💡 2SOMEren"
+  parent = "🛠️ Projects"
   pageRef = "https://2some.ren"
   weight = 22
 
 [[main]]
-  name = "2SOMEone"
-  parent = "Projects"
+  name = "🌐 2SOMEone"
+  parent = "🛠️ Projects"
   pageRef = "https://2some.one"
   weight = 23
 
-
 [[main]]
-  name = "About"
+  name = "🙋‍♂️ About"
   pageRef = "/about"
   weight = 30
 
