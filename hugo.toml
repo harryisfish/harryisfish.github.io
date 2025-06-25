@@ -1,3 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "blowfish"
+baseURL = "https://harryisfish.github.io/"  # 改为你的实际域名
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true

@@ -8,13 +8,24 @@ title = "Blowfish"
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "2006-01-02"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
+[params.author]
+    name = "海鱼Harry"
+    image = "/img/harry-avatar.png" # 可选头像路径
+    headline = "abc"
+    bio = "记录、分享、成长。"
+    links = [
+      { link = "https://bento.me/harryisfish" },
+      { github = "https://github.com/harryisfish" },
+      { blogger = "https://harryisfish.github.io/" },
+      { x-twitter = "https://x.com/harry_is_fish" },
+      { twitter = "https://x.com/harry_isfish" },
+    ]
 #   name = "Your name here"
 #   email = "youremail@example.com"
 #   image = "img/blowfish_logo.png"
