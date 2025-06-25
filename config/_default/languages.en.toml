@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Harry's Blog"
 
 [params]
   displayName = "EN"
@@ -17,8 +17,8 @@ title = "Blowfish"
 [params.author]
     name = "海鱼Harry"
     image = "/img/harry-avatar.png" # 可选头像路径
-    headline = "abc"
-    bio = "记录、分享、成长。"
+    headline = ""
+    bio = "知我罪我"
     links = [
       { link = "https://bento.me/harryisfish" },
       { github = "https://github.com/harryisfish" },
