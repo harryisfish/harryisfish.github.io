@@ -1,0 +1,25 @@
+{{ $friends := site.Data.friends }}
+{{ if not $friends }}
+  <p class="text-sm opacity-80">暂无友链数据，请在 <code>data/friends.yaml</code> 中添加。</p>
+{{ else }}
+  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+    {{ range $friends }}
+      {{ $item := . }}
+      <a href="{{ $item.url }}" target="_blank" rel="noopener noreferrer" class="group block rounded-xl border border-neutral-200/30 dark:border-neutral-700/60 p-4 hover:shadow-lg transition-shadow duration-200">
+        <div class="flex items-center gap-4">
+          {{ with $item.avatar }}
+            <img src="{{ . }}" alt="{{ $item.name }} avatar" width="48" height="48" class="w-12 h-12 rounded-full nozoom" loading="lazy" />
+          {{ end }}
+          <div class="min-w-0">
+            <div class="font-semibold truncate">{{ $item.name }}</div>
+            {{ with $item.description }}
+              <div class="text-sm opacity-80 line-clamp-2">{{ . }}</div>
+            {{ end }}
+            <div class="text-xs opacity-60 group-hover:opacity-100 truncate">{{ $item.url }}</div>
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  </section>
+{{ end }}
+

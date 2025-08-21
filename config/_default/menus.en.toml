@@ -54,6 +54,11 @@
   pageRef = "/about"
   weight = 30
 
+[[main]]
+  name = "🤝 Friends"
+  pageRef = "/friends"
+  weight = 25
+
 # [[footer]]
 #   name = "Privacy"
 #   url = "https://external-link"

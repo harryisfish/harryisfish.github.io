@@ -26,6 +26,12 @@ categories: ["about me"]
 - 🦄 Uniswap, MetaMask, Ethereum
 - 📝 Wordpress, Linux, MacOS, Docker, Arduino
 
+## 🚀 Projects
+
+- [MultiPost](https://multipost.app): Publish once, sync to multiple platforms.
+- [2SOMEren](https://2some.ren): An anonymous mailbox and fan management platform optimized for live streaming.
+- [2SOMEone](https://2some.one): Developer tools for AI proxy, marketing, and more.
+
 ## 🙋‍♂️ About Me
 
 I love technology 💡, enjoy exploring new fields 🌱, and am committed to continuous learning 📚 and growth 📈. This blog is my place to document my journey 🛤️ and share technical insights 💬.
