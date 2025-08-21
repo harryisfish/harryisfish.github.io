@@ -28,28 +28,6 @@
   weight = 90
 
 [[main]]
-  name = "🛠️ Projects"
-  weight = 20
-
-[[main]]
-  name = "🚀 MultiPost"
-  parent = "🛠️ Projects"
-  url = "https://multipost.app"
-  weight = 21
-
-[[main]]
-  name = "💡 2SOMEren"
-  parent = "🛠️ Projects"
-  url = "https://2some.ren"
-  weight = 22
-
-[[main]]
-  name = "🌐 2SOMEone"
-  parent = "🛠️ Projects"
-  url = "https://2some.one"
-  weight = 23
-
-[[main]]
   name = "🙋‍♂️ About"
   pageRef = "/about"
   weight = 30
